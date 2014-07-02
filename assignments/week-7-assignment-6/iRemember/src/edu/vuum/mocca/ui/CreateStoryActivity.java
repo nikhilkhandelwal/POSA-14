@@ -402,7 +402,7 @@ public class CreateStoryActivity extends StoryActivityBase {
 				+ requestCode + " resultCode:" + resultCode + "data:" + data);
 		
 		if (requestCode == CreateStoryActivity.CAMERA_PIC_REQUEST) {
-			if (resultCode == CreateStoryActivity.RESULT_OK) {
+			if (resultCode == CreateStoryActivity.RESULT_OK) { 
 				// Image captured and saved to fileUri specified in the Intent
 				imagePathFinal = imagePath;
 				imageLocation.setText(imagePathFinal.toString());
